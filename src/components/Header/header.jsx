@@ -1,5 +1,6 @@
 import React from 'react';
 import Style from './header.module.css';
+import { TextField } from '@mui/material';
 
 function Header(props) {
   return (
@@ -9,8 +10,7 @@ function Header(props) {
         </div>
         <div className={Style.central}>
          <div className={Style.busca}>
-            <input type="text" placeholder='Para seu pet ou sua casa, procure aqui' />
-            <button>Pesquisar</button>
+          <TextField fullWidth id= "standart-basic" label="Standart" variant="standart"/>
          </div>
          <div className={Style.menu}>
             <nav>

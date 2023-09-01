@@ -1,10 +1,11 @@
-import Header from "./components/Header/header";
+
 import "./app.css";
+import Formulario from "./components/Formulario/formulario";
 
 function App() {
   return (
     <>
-      <Header cor="#00a3b4"/>
+    <Formulario/>
     </>
   );
 }
